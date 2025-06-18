@@ -292,6 +292,12 @@ astropy.modeling
 - Fixed an issue with Parameter where a getter could be input without a
   setter (or vice versa). [#14708]
 
+astropy.nddata
+^^^^^^^^^^^^^^
+
+- Fixed mask propagation in ``NDDataRef`` arithmetic when only one operand
+  has a mask. [#14995]
+
 astropy.time
 ^^^^^^^^^^^^
 
